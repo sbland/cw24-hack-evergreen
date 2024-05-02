@@ -1,0 +1,23 @@
+---
+description: The types associated with the project.
+---
+
+## Basic usage
+
+Use the lib component:
+
+```ts
+export interface ITag {
+  id: string;
+  name: string;
+}
+
+export interface ICard {
+  id: string;
+  name: string; // Question
+  description: string; // Solution
+  image: string;
+  tags: ITag[];
+  primaryTag: ITag;
+}
+```
