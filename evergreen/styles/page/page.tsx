@@ -1,9 +1,7 @@
 import type { ReactNode } from 'react';
 
 export type PageProps = {
-  /**
-   * sets the component children.
-   */
+
   children?: ReactNode;
 };
 

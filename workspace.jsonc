@@ -55,8 +55,10 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@types/styled-components": "^5.1.34",
         "airtable": "^0.12.2",
-        "styled-components": "^6.1.9"
+        "react-router-dom": "^6.23.0",
+        "styled-components": "^5.3.11"
       },
       "peerDependencies": {}
     },

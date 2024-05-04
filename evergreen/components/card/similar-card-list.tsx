@@ -3,9 +3,7 @@ import styled from 'styled-components';
 import { CardPreview } from './card-preview.js';
 
 export type CardboardProps = {
-  /**
-   * sets the component children.
-   */
+
   cards: ICard[];
   style?: React.CSSProperties;
 };

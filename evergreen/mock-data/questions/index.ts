@@ -1,6 +1,7 @@
-import { mockCards } from "@cw24/evergreen.mock-data.cards";
+import { IQuestion } from '@cw24/evergreen.lib';
+import { mockCards } from '@cw24/evergreen.mock-data.cards';
 
-export const exampleQuestions = [
+export const exampleQuestions: IQuestion[] = [
   {
     id: '1',
     name: 'What is your favorite color?',

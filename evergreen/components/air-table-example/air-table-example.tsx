@@ -1,9 +1,7 @@
 import type { ReactNode } from 'react';
 
 export type AirTableExampleProps = {
-  /**
-   * sets the component children.
-   */
+
   children?: ReactNode;
 };
 

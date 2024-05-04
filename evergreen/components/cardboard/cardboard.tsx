@@ -3,9 +3,7 @@ import { Card } from '@cw24/evergreen.components.card';
 import styled from 'styled-components';
 
 export type CardboardProps = {
-  /**
-   * sets the component children.
-   */
+
   cards: ICard[];
   style?: React.CSSProperties;
 };

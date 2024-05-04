@@ -12,56 +12,50 @@
     "components/air-table-example": {
         "name": "components/air-table-example",
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "defaultScope": "cw24.evergreen",
         "mainFile": "index.ts",
-        "rootDir": "evergreen/components/air-table-example",
-        "config": {
-            "bitdev.react/react-env@2.0.2": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.react/react-env"
-            }
-        }
+        "rootDir": "evergreen/components/air-table-example"
     },
     "components/card": {
         "name": "components/card",
         "scope": "cw24.evergreen",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "evergreen/components/card"
     },
     "components/cardboard": {
         "name": "components/cardboard",
         "scope": "cw24.evergreen",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "mainFile": "index.ts",
         "rootDir": "evergreen/components/cardboard"
     },
     "components/question-and-answer-view": {
         "name": "components/question-and-answer-view",
         "scope": "cw24.evergreen",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "mainFile": "index.ts",
         "rootDir": "evergreen/components/question-and-answer-view"
     },
     "components/searchable-view": {
         "name": "components/searchable-view",
         "scope": "cw24.evergreen",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "evergreen/components/searchable-view"
     },
     "components/tiered-card-view": {
         "name": "components/tiered-card-view",
         "scope": "cw24.evergreen",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "mainFile": "index.ts",
         "rootDir": "evergreen/components/tiered-card-view"
     },
     "hello-world": {
         "name": "hello-world",
         "scope": "cw24.evergreen",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "evergreen/hello-world"
     },
@@ -75,58 +69,54 @@
     "mock-data/cards": {
         "name": "mock-data/cards",
         "scope": "cw24.evergreen",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "evergreen/mock-data/cards"
     },
     "mock-data/questions": {
         "name": "mock-data/questions",
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "defaultScope": "cw24.evergreen",
         "mainFile": "index.ts",
-        "rootDir": "evergreen/mock-data/questions",
-        "config": {
-            "bitdev.react/react-env@2.0.2": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.react/react-env"
-            }
-        }
+        "rootDir": "evergreen/mock-data/questions"
     },
     "pages/root": {
         "name": "pages/root",
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "defaultScope": "cw24.evergreen",
         "mainFile": "index.ts",
-        "rootDir": "evergreen/pages/root",
-        "config": {
-            "bitdev.react/react-env@2.0.2": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.react/react-env"
-            }
-        }
+        "rootDir": "evergreen/pages/root"
     },
     "state/global-state": {
         "name": "state/global-state",
         "scope": "cw24.evergreen",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "evergreen/state/global-state"
     },
-    "styles/page": {
-        "name": "styles/page",
+    "styles/global": {
+        "name": "styles/global",
         "scope": "",
         "version": "",
         "defaultScope": "cw24.evergreen",
         "mainFile": "index.ts",
-        "rootDir": "evergreen/styles/page",
+        "rootDir": "evergreen/styles/global",
         "config": {
             "bitdev.react/react-env@2.0.2": {},
             "teambit.envs/envs": {
                 "env": "bitdev.react/react-env"
             }
         }
+    },
+    "styles/page": {
+        "name": "styles/page",
+        "scope": "",
+        "version": "0.0.1",
+        "defaultScope": "cw24.evergreen",
+        "mainFile": "index.ts",
+        "rootDir": "evergreen/styles/page"
     },
     "$schema-version": "17.0.0"
 }

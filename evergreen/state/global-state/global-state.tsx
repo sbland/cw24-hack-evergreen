@@ -14,11 +14,11 @@ export const GlobalStateContext = React.createContext<IGlobalState>(null);
 export const GlobalStateProvider = ({
   children,
   cards,
-  questions,
+  questions=[],
 }: {
   children: React.ReactNode;
   cards: ICard[];
-  questions: IQuestion[];
+  questions?: IQuestion[];
 }) => {
   const [savedCards, setSavedCards] = React.useState<ICard[]>([]);
 

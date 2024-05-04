@@ -5,9 +5,6 @@ import { Card } from '@cw24/evergreen.components.card';
 import { Cardboard } from '@cw24/evergreen.components.cardboard';
 
 export type TieredCardViewProps = {
-  /**
-   * sets the component children.
-   */
   cardsData: ICard[];
   topCardsData: ICard[];
 };
